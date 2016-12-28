@@ -35,7 +35,7 @@ class GitHubAPI{
 	if(!isset($profile['blog'])){
 		return null;
 			}else{
-		if($profile['blog'] == NULL){
+		if($profile['blog'] == null){
 		return null;
 				}else{
 		return $profile['blog'];
@@ -49,7 +49,7 @@ class GitHubAPI{
 	if(!isset($profile['email'])){
 		return null;
 			}else{
-		if($profile['email'] == NULL){
+		if($profile['email'] == null){
 		return null;
 				}else{
 		return $profile['email'];
@@ -63,7 +63,7 @@ class GitHubAPI{
 	if(!isset($profile['bio'])){
 		return null;
 			}else{
-		if($profile['bio'] == NULL){
+		if($profile['bio'] == null){
 		return null;
 				}else{
 		return $profile['bio'];
@@ -97,7 +97,7 @@ class GitHubAPI{
 	if(!isset($profile['location'])){
 		return null;
 			}else{
-		if($profile['location'] == NULL){
+		if($profile['location'] == null){
 		return null;
 				}else{
 		return $profile['location'];
@@ -111,7 +111,7 @@ class GitHubAPI{
 	if(!isset($profile['company'])){
 		return null;
 			}else{
-		if($profile['company'] == NULL){
+		if($profile['company'] == null){
 		return null;
 				}else{
 		return $profile['company'];
