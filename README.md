@@ -1,4 +1,11 @@
-#GitHubAPI
-こちらのAPIはGitHub上のユーザーの設定してあるプロフィールを所得することができます。<br>
-一つ一つの関数の前にその関数が返すデータの情報が書いてあります。<br>
-是非、ダウンロードしてくださいね!<br>
+## GitHubAPI
+GitHub API written in PHP.
+## How to use?
+```php
+$api = new API("towa0131");
+echo $api->getId();
+echo $api->getCreatedAt();
+#=-=-=-=[Output]=-=-=-=#
+23122010
+2016-10-28
+```
