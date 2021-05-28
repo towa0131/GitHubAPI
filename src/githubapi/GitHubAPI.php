@@ -8,8 +8,6 @@ class GitHubAPI
 
     public function __construct(string $name)
     {
-        require_once __DIR__ . "/AccountNotFoundException.php";
-
         $this->account = $this->getAccountData($name);
     }
 
@@ -56,6 +54,11 @@ class GitHubAPI
     public function getCompany(): ?string
     {
         return $this->account["company"];
+    }
+
+    public function getTwitter(): ?string
+    {
+        return $this->account["twitter_username"];
     }
 
     public function getRepositoryCount(): int
